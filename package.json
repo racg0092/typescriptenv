@@ -1,0 +1,37 @@
+{
+  "name": "typescriptenv",
+  "version": "1.0.0",
+  "description": "TypeScript Enviroment for libs",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/racg0092/typescriptenv.git"
+  },
+  "keywords": [
+    "lib",
+    "enviroment",
+    "library"
+  ],
+  "author": "Richard Chapman Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/racg0092/typescriptenv/issues"
+  },
+  "homepage": "https://github.com/racg0092/typescriptenv#readme",
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
+    "tsify": "^4.0.1",
+    "typescript": "^3.7.5",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1"
+  }
+}
